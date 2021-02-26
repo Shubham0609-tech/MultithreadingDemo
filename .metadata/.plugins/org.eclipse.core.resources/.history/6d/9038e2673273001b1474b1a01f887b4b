@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+class SecondSmallest{
+	
+	
+}
+
+public class Exercise1 {
+
+	public static void main(String[] args) {
+		
+		int number;
+		
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter the size array");
+		
+		int limit = scanner.nextInt();
+		
+		int[] array = new int[limit];
+		
+		for(int i=0;i<limit;i++) {
+			array[i] = scanner.nextInt();
+		}
+		
+		for(int a:array) {
+			System.out.println(a+" ");
+		}
+
+		
+		
+		
+		
+
+	}
+
+}

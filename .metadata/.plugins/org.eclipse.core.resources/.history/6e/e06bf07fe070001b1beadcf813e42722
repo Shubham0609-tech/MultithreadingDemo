@@ -1,0 +1,11 @@
+public class Main {
+	public static void main(String[] args) {
+		int number;
+		CheckNumber n = new CheckNumber();
+		boolean result = n.checkNumber(number);
+		if(result) {
+			System.out.println(number + "is a power of two");
+		}
+
+	}
+}

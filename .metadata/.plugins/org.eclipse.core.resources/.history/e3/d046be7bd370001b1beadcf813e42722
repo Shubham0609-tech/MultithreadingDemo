@@ -1,0 +1,14 @@
+public class ClassDifference {
+	int sumOfSquares = 0;
+	int squareOfSum = 0;
+	int calculateDifference(n) {
+		for(int i=0 ; i<=n ; i++) {
+			sumOfSquares = sum + i * i;
+		}
+		for(int i=0 ; i<=n ; i++) {
+			squareOfSum = sum + i;
+		}
+		squareOfSum = squareOfSum * squareOfSum;
+		return (sumOfSquares - squareOfSum);
+	}
+}

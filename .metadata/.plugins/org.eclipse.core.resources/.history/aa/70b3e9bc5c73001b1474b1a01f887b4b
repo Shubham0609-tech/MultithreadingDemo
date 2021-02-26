@@ -1,0 +1,13 @@
+package com.cg.labs.exercise2;
+
+import java.lang.StringBuffer;
+
+public class MirrorImage {
+	
+	String getImage(String s) {
+		
+		StringBuffer sb = new StringBuffer;
+		
+	}
+
+}

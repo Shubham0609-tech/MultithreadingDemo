@@ -1,0 +1,19 @@
+package com.cg.labs.exercise4;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		int[] arr = new int[4];
+		arr[0] = 1;
+		arr[1] = 2;
+		arr[2] = 3;
+		arr[3] = 2;
+		
+		RemoveDuplicates r = new RemoveDuplicates();
+		
+		r.modifyArray(arr, 4);
+		
+	}
+
+}

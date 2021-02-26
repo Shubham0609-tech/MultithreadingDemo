@@ -1,0 +1,20 @@
+package com.cg.labs.exercise1;
+
+import java.util.StringTokenizer;
+
+public class StringAdder {
+	
+	int sum=0;
+	
+	int addString(String s) {
+		
+		StringTokenizer st = new StringTokenizer(s," ");
+		
+		while(st.hasMoreTokens()) {
+			sum = sum + Integer.parseInt(st.nextToken());
+		}
+		
+		return sum;
+	}
+
+}

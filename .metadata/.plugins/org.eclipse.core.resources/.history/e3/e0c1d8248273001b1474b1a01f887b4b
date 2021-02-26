@@ -1,0 +1,17 @@
+package com.cg.labs.exercise3;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Book book1 = new Book(111,"Hello world",3,"java");
+		Journal journal =new Journal();
+		
+		journal.setAuthor("Shubham");
+		journal.setYearPublished(1999);
+		
+		
+		System.out.println(journal);
+	}
+
+}

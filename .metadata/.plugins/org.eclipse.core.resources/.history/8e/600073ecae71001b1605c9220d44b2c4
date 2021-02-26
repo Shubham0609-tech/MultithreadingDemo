@@ -1,0 +1,10 @@
+import pakage1.ClassA;
+import pakage1.ClassB;
+import pakage2.ClassC;
+import pakage2.ClassD;
+
+public class Main {
+	
+	
+
+}

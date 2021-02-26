@@ -1,0 +1,13 @@
+package com.cg.labs.exercise3;
+
+import java.util.StringTokenizer;
+
+public class AlterString {
+	
+	String alterString(String s) {
+		
+		
+		
+	}
+
+}

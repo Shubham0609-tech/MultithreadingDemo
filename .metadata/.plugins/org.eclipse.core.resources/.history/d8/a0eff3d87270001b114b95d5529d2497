@@ -1,0 +1,9 @@
+public class Main {
+	public static void main(String[] args) {
+		System.out.println("Enter the value of n");
+		SumOfNumbers sum = new SumOfNumbers();
+		int result = sum.findSum(5);
+		System.out.println(result);
+	}
+
+}

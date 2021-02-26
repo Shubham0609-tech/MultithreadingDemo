@@ -1,0 +1,9 @@
+
+public class Person extends Account {
+	
+	String name;
+	float age;
+	
+	
+	
+}

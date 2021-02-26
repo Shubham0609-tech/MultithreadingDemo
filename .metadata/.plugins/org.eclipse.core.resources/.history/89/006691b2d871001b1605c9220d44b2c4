@@ -1,0 +1,19 @@
+
+public class Account {
+	
+	long accNum;
+	double balance;
+	Person person;
+	
+	void deposit(long rupees) {
+		
+	}
+	
+	void withdraw(long rupees) {
+		
+	}
+	
+	double getBalance() {
+		return balance;
+	}
+}

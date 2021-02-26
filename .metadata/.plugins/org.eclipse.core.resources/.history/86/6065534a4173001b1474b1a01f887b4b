@@ -1,0 +1,21 @@
+
+public class SavingsAccount extends Account {
+	
+	final double minimumBalance = 1000;
+	
+	@Override
+	public void withdraw(double inr) {
+		if(balance < minimumBalance) {
+			System.out.println("Not enough Balance");
+		}else if(inr > balance){
+			System.out.println("Ammount greater than balance");
+		}else {
+			super.balance = super.balance - inr;
+		}
+	}
+	
+	public SavingsAccount(long accountNumber, double accountBalance, Person accHolder) {
+		super(accountNumber,accountBalance,accHolder);
+	}
+
+}

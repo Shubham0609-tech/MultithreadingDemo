@@ -1,0 +1,8 @@
+public class Main {
+	public static void main(String[] args) {
+		int number = 13668;
+		CheckNumber n1 = new CheckNumber();
+		n1.checkNumber(number);
+	}
+
+}

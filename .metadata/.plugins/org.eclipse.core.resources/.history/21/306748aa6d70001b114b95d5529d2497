@@ -1,0 +1,7 @@
+public class CalculateSum{
+	int sum=0;
+	int calculateSum(n) {
+		
+	}
+
+}

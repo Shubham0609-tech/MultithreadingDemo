@@ -1,0 +1,10 @@
+package com.cg.labs.exercise3;
+
+public abstract class Item {
+	
+	int uid;
+	int tiles;
+	int noOfCopies;
+	
+	
+}

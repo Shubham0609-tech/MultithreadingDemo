@@ -1,0 +1,12 @@
+package com.cg.labs.exercise3;
+
+public class StringReverse {
+	
+	public String reverseString(String str){  
+		
+		StringBuilder sb=new StringBuilder(str);  
+		sb.reverse();  
+		return sb.toString();
+
+	}
+}

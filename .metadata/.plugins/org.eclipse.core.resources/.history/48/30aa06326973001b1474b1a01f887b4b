@@ -1,0 +1,21 @@
+package com.cg.labs.exercise5;
+
+public class PositiveString {
+	
+	public boolean positiveString(String s) {
+		
+		int flag = 0;
+		
+		for(int i=1;i<s.length();i++) {
+			
+			if(s.charAt(i-1) < s.charAt(i)) {
+				
+				flag = flag +1;
+				
+			}
+			
+		}
+		
+	}
+
+}

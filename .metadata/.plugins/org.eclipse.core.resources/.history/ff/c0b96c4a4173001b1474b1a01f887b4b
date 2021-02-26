@@ -1,0 +1,20 @@
+
+public class CurrentAccount extends Account{
+	
+	protected double overdraftLimit = 2000;
+	
+	@Override
+	public void withdraw(double inr) {
+		
+		if(inr > (balance+overdraftLimit)) {
+			System.out.println("OverdraftLimit reached....");
+		}else {
+			balance = balance - inr;
+			System.out.println("The new balance is " + balance);
+		}
+	}
+	
+	public CurrentAccount(long accountNumber, double accountBalance, Person accHolder) {
+		super(accountNumber,accountBalance,accHolder);
+	}
+}

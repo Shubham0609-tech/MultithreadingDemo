@@ -1,0 +1,17 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		int number = 10;
+		
+		PrimeNo n1 = new PrimeNo();
+		
+		for(int i=1;i<number;i++) {
+			if((n1.isPrime(i))) {
+				System.out.println(i);				
+			}
+		}
+	}
+
+}

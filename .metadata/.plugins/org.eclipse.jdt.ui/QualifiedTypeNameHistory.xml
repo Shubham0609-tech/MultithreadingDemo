@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="pakage1.ClassA"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="com.cg.labs.exercise3.Journal"/>
+    <fullyQualifiedTypeName name="com.cg.labs.exercise3.MediaItem"/>
+</qualifiedTypeNameHistroy>

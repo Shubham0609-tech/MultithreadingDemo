@@ -1,0 +1,36 @@
+package com.cg.labs.exercise3;
+
+public class Book extends WrittenItem {
+
+	
+	public Book() {
+		super();
+	}
+
+	public Book(int uid, String tiles, int noOfCopies, String author) {
+		super(uid, tiles, noOfCopies, author);
+	}
+	
+	public void checkIn()
+	{
+		this.noOfCopies += 1;
+	}
+	
+	public void checkOut() {
+		this.noOfCopies -= 1;
+	}
+	
+	void addItem(int uid, String titles, int noOfcopies, String author) {		
+		this.uid = uid;
+		this.titles = titles;
+		this.noOfCopies = noOfCopies;
+		this.author = author;		
+	}
+
+	@Override
+	public String toString() {
+		return "Book [author=" + author + ", uid=" + uid + ", titles=" + titles + ", noOfCopies=" + noOfCopies + "]";
+	}
+	
+	
+}

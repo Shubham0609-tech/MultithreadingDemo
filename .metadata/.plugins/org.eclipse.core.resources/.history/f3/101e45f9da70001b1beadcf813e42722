@@ -1,0 +1,12 @@
+public class CheckNumber {
+	void checkNumber(int n) {
+		int noDigits = 0;
+		while(n>0) {
+			int digitRight = n % 10;
+			n = n / 10;
+			noDigits++;
+			int digitLeft = n % 10;	
+		}
+		System.out.println(noDigits);
+	}
+}
